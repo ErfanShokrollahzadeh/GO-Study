@@ -1,19 +1,31 @@
 package main
 
-import (
-	"fmt"
-)
-
-func Reverse(s string) string {
-	runes := []rune(s)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-	return string(runes)
-}
+import "fmt"
 
 func main() {
-	// fmt.Println("Hello, World!")
-	fmt.Println("Hello, World!")
-	fmt.Println(Reverse("olleH"))
+	//for i := 0; i < 10; i++ {
+	//	println("Hello, World!")
+	//}
+
+	for i := 0; i < 3; i++ {
+		if i > 1 {
+			break
+		}
+		fmt.Println(i)
+	}
+
+	a := 0
+	for a < 3 {
+		fmt.Println("a")
+		a++
+	}
+
+	b := 0
+	for {
+		if b > 2 {
+			break
+		}
+		fmt.Println("b")
+		b++
+	}
 }
