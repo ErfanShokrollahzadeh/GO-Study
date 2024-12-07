@@ -3,29 +3,25 @@ package main
 import "fmt"
 
 func main() {
-	//for i := 0; i < 10; i++ {
-	//	println("Hello, World!")
-	//}
+	book := "The Colour of Magic"
 
-	for i := 0; i < 3; i++ {
-		if i > 1 {
-			break
-		}
-		fmt.Println(i)
-	}
+	fmt.Println(book)
+	fmt.Println(len(book))
 
-	a := 0
-	for a < 3 {
-		fmt.Println("a")
-		a++
-	}
+	fmt.Printf("book[0] = %v (type %T)\n", book[0], book[0])
 
-	b := 0
-	for {
-		if b > 2 {
-			break
-		}
-		fmt.Println("b")
-		b++
-	}
+	fmt.Println(book[4:11])
+	fmt.Println(book[4:])
+	fmt.Println(book[:4])
+
+	fmt.Println("hi " + book)
+
+	// multiline string
+	poem := `
+The road goes ever on
+Down from the door where it began
+Now far ahead the road has gone
+...
+`
+	fmt.Println(poem)
 }
