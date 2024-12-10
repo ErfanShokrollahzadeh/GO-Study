@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8c51d2-abf9-48e5-9ec0-248ff78188e3" name="Changes" comment="In this section we learn what is parametrs and pointer (* *int) *n := ???&#10;and else ...">
-      <change afterPath="$PROJECT_DIR$/05_errors/main.go" afterDir="false" />
+    <list default="true" id="2d8c51d2-abf9-48e5-9ec0-248ff78188e3" name="Changes" comment="in this section we learn about how handle errors and else ...">
+      <change afterPath="$PROJECT_DIR$/06_defer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +119,8 @@
     <MESSAGE value="In this section we learned map method how can we call item from inside or how can add or append extra item to the map method and else ..." />
     <MESSAGE value="In this section we learned about how define function and what is syntax and how we can return that and else..." />
     <MESSAGE value="In this section we learn what is parametrs and pointer (* *int) *n := ???&#10;and else ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="In this section we learn what is parametrs and pointer (* *int) *n := ???&#10;and else ..." />
+    <MESSAGE value="in this section we learn about how handle errors and else ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="in this section we learn about how handle errors and else ..." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
