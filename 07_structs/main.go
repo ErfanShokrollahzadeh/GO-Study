@@ -15,4 +15,5 @@ func main() {
 	fmt.Printf("%+v\n", t1)
 	fmt.Println(t1.Symbol)
 	fmt.Println(t1.Valume)
+	// trsdt lkfmlaksndmglknfan
 }
