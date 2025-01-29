@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d8c51d2-abf9-48e5-9ec0-248ff78188e3" name="Changes" comment="In this section I learned how can I define constructor &#10;and what it is and how we can handle error and else ...">
-      <change afterPath="$PROJECT_DIR$/10_interface/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_methods/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/struct_mothod.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_methods/struct_mothod.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_struct_with_func/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_new_struct_with_func/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,8 @@
     <MESSAGE value="in tiss /...." />
     <MESSAGE value="In this section I learned how can I connect method function to the class object" />
     <MESSAGE value="In this section I learned how can I define constructor &#10;and what it is and how we can handle error and else ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="In this section I learned how can I define constructor &#10;and what it is and how we can handle error and else ..." />
+    <MESSAGE value="In this section I learned how can I define constructor&#10;and what it is and how we can handle error and else ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="In this section I learned how can I define constructor&#10;and what it is and how we can handle error and else ..." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
