@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"github.com/pkg/errors"
 )
 
 
@@ -13,7 +14,7 @@ type Config struct {
 func readconfig(path string) (*Config, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "failed to open config file")
 	}
 
 	defer file.Close()
